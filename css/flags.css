@@ -189,6 +189,33 @@
 /* Drapeau du Togo */
 
 .togo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.togo .carre {
+  position: absolute;
+  width: 35%;
+  height: 60%;
+  top: 0;
+  left: 0;
+}
+
+.togo img {
+  padding-top: 25%;
+}
+
+.togo .vert {
+  background: #006A4E;
+  flex: 1;
+}
+.togo .jaune {
+  background: #FFCE00;
+  flex: 1;
+}
+.togo .rouge {
+  background: #D21135;
 }
 /* --------------------*/
 
