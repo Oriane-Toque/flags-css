@@ -222,6 +222,36 @@
 /* Drapeau de la Grèce */ 
 
 .grece {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.grece .rayure {
+  flex: 1;
+}
+
+.grece .croix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 55.5%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2.2rem;
+  column-gap: 2.2rem;
+  background: #fff;
+}
+
+.grece .croix .bleu {
+  background: #023BA7;
+}
+
+.grece .bleu {
+  background: #023BA7;
 }
 
 /* ------------------*/
