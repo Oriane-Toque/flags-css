@@ -40,6 +40,24 @@
 
 /* Drapeau du Bénin */
 .benin {
+ display: grid;
+ grid-template-columns: 2fr 3fr;
+ grid-template-rows: 1fr 1fr;
+}
+
+.benin .jaune {
+  background: #ffd500;
+  grid-column: 2 / 3;
+
+}
+.benin .rouge {
+  background: #EA2027;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+.benin .vert {
+  background: #009432;
+  grid-row: 1 / 3;
 }
 /* --------------------*/
 
