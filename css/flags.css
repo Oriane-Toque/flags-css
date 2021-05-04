@@ -63,7 +63,15 @@
 
 /* Drapeau de la Lettonie */
 .lettonie {
-
+  display: flex;
+  flex-direction: column;
+}
+.rouge {
+  flex: 2;
+  background: #8C353C;
+}
+.blanc {
+  flex: 1;
 }
 
 /* --------------------*/
