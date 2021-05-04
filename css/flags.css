@@ -166,6 +166,23 @@
 
 /* Drapeau du Chili */
 .chili {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.chili .bleu {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background: #023BA7;
+  grid-row: 1 / 2;
+}
+
+.chili .rouge {
+  background: #D52B1E;
+  grid-column: span 2;
 }
 /* --------------------*/
 
