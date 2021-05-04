@@ -1,12 +1,28 @@
 /* Drapeau de l'Ukraine */
-.ukraine {
-
+.ukraine .bande {
+  height: 50%;
+}
+.ukraine .bleu {
+  background: #005bbb;
+}
+.ukraine .jaune {
+  background: #ffd500;
 }
 
 /* --------------------*/
 
 /* Drapeau de l'Italie */
 .italie {
+  display: flex;
+}
+.italie .bande {
+  width: calc(100% / 3);
+}
+.italie .vert {
+  background: #009432;
+}
+.italie .rouge {
+  background: #EA2027;
 }
 /* --------------------*/
 
