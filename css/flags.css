@@ -99,6 +99,26 @@
 
 /* Drapeau du Sénégal */
 .senegal {
+  display: flex;
+}
+
+.senegal .bande {
+  align-self: stretch;
+  flex:1;
+}
+
+.senegal .vert {
+  background: #009432;
+}
+.senegal .jaune {
+  background: #FFC312;
+  display: flex;
+}
+.senegal img {
+  margin: auto;
+}
+.senegal .rouge {
+  background: #EA2027;
 }
 
 /* --------------------*/
