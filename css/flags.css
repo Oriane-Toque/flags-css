@@ -130,14 +130,14 @@
   flex-direction: column;
 }
 
-.bleu {
+.costa_rica .bleu {
   flex: 1;
   background: #1B1464;
 }
-.blanc {
+.costa_rica .blanc {
   flex: 1;
 }
-.rouge {
+.costa_rica .rouge {
   flex: 2;
   background: #EA2027;
 }
@@ -146,6 +146,20 @@
 
 /* Drapeau du Suriname */
 .suriname {
+  display: flex;
+  flex-direction: column;
+}
+
+.suriname .vert {
+  background: #377E3F;
+  flex: 2;
+}
+.suriname .rouge {
+  background: #B30C2E;
+  flex: 3;
+}
+.suriname .blanc {
+  flex: 1;
 }
 
 /* --------------------*/
