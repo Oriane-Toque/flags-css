@@ -29,6 +29,12 @@
 
 /* Drapeau du Vietnam */
 .vietnam {
+  display: flex;
+  justify-content: center;
+  background: #EA2027;
+}
+.vietnam img {
+  align-self: center;
 }
 /* --------------------*/
 
